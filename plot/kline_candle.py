@@ -7,6 +7,7 @@ from __future__ import unicode_literals
 from __future__ import print_function
 
 from pyecharts.charts import Kline, Bar, Line, Grid, Overlap
+from pyecharts import Overlap
 
 
 def kline_js(name, df, prices_cols=None, ma=('ma10',), width=1600, height=750, kline_xaxis_pos='top', render_path=None):
